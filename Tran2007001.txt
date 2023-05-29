@@ -1,0 +1,4 @@
+Cash In from 10002 TK 1000  & Balance is : TK 1000
+Cash In from 10005 TK 500  & Balance is : TK 1500
+Cash Out to 10004 TK 750 & Balance is : TK 750
+Mobile Recharge to 01672898736 TK 100 & Balance is : TK 650

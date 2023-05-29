@@ -1,0 +1,4 @@
+Cash In from 10003 TK 10000  & Balance is : TK 10000
+Send money to 098765434567 TK 5000 & Balance is : TK 5000
+Mobile Recharge to 0987567 TK 1003 & Balance is : TK 3997
+Cash Out to 10003 TK 1232 & Balance is : TK 2765

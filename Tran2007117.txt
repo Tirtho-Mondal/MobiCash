@@ -1,0 +1,5 @@
+Cash In from 10001 TK 5000  & Balance is : TK 5000
+Mobile Recharge to 123456 TK 100 & Balance is : TK 4900
+Mobile Recharge to 98667463 TK 200 & Balance is : TK 4700
+Cash Out to 10009 TK 4000 & Balance is : TK 700
+Send money to 1764 TK 200 & Balance is : TK 500
