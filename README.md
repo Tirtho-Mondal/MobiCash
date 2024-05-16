@@ -47,15 +47,15 @@ MobiCash is a comprehensive mobile banking system implemented in C++. It provide
 
 ## File Structure
 
-- **main.cpp:** Contains the core program logic and user interface.
-- **README.md:** Detailed project documentation and instructions.
-- **Balance.txt:** Stores user account balances.
-- **User.txt:** Records registered usernames.
-- **UserMobile.txt:** Stores registered user mobile numbers.
-- **Agent.txt:** Stores registered agent contact numbers.
-- **data<user_mobile_number>.txt:** Stores user data (mobile number, username, password).
-- **Balance<user_mobile_number>.txt:** Records individual user account balances.
-- **Tran<user_mobile_number>.txt:** Logs user transaction details for each user.
+- **`main.cpp ` : ** Contains the core program logic and user interface.
+- **`README.md `:** Detailed project documentation and instructions.
+- **`Balance.txt`:** Stores user account balances.
+- **`User.txt`:** Records registered usernames.
+- **`UserMobile.txt`:** Stores registered user mobile numbers.
+- **`Agent.txt`:** Stores registered agent contact numbers.
+- **`data<user_mobile_number>.txt`:** Stores user data (mobile number, username, password).
+- **`Balance<user_mobile_number>.txt`:** Records individual user account balances.
+- **`Tran<user_mobile_number>.txt`:** Logs user transaction details for each user.
 
 ---
 
