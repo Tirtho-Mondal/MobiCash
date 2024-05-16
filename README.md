@@ -1,55 +1,96 @@
 # MobiCash - Mobile Banking System
 
-MobiCash is a mobile banking system that provides various banking operations such as cash in, cash out, mobile recharge, send money, check balance, and transaction details. It allows users to perform banking transactions conveniently from their mobile devices.
+---
+
+## Description
+
+MobiCash is a comprehensive mobile banking system implemented in C++. It provides users with a convenient and secure platform to perform various banking transactions remotely, such as checking balances, transferring funds, mobile recharges, and more. The system incorporates features like user and agent registration, login authentication, transaction tracking, and administrative functionalities. Utilizing file handling for data storage ensures persistent user information and transaction records.
+
+---
 
 ## Features
 
-- User Registration: Users can register their mobile numbers and create an account.
-- User Login: Registered users can log in to their accounts using their mobile numbers and passwords.
-- Forgot Password: Users can recover their passwords if forgotten by providing their mobile number.
-- Cash In: Users can deposit money into their accounts through authorized agents.
-- Cash Out: Users can withdraw money from their accounts through authorized agents.
-- Send Money: Users can send money to other mobile numbers.
-- Mobile Recharge: Users can recharge mobile numbers with desired amounts.
-- Check Balance: Users can check their account balances.
-- Transaction Details: Users can view transaction details, including cash in, cash out, and mobile recharge transactions.
-- Administrator: The system includes an admin interface to manage users and agents.
+1. **User Registration:**
+    - Users can register by providing their mobile number, username, and password.
+    - Each registered user's information is stored securely for future authentication.
 
-## How to Use
+2. **Agent Registration:**
+    - Agents can register by submitting their contact number, allowing them to facilitate cash transactions.
 
-1. Registration:
-   - Run the program and select the "Register User" or "Register Agent" option.
-   - Provide the required information, such as mobile number, username, and password.
-   - Upon successful registration, a new account will be created.
+3. **Login Authentication:**
+    - Registered users can securely log in using their mobile number and password.
+    - Authentication ensures only authorized users can access their accounts.
 
-2. Login:
-   - Select the "Login" option and enter your mobile number and password.
-   - If the credentials are correct, you will be logged in to your account.
+4. **Balance Inquiry:**
+    - Users can check their account balances to monitor their financial status.
 
-3. Perform Transactions:
-   - After logging in, choose from various transaction options, such as send money, cash in, cash out, mobile recharge, check balance, or transaction details.
-   - Follow the prompts and provide the necessary information to complete the transaction.
+5. **Cash In:**
+    - Users can deposit money into their accounts through designated agents.
 
-4. Administrator Access:
-   - Select the "Admin of MobiCash" option to access the admin interface.
-   - From there, you can view and manage registered users and agents.
+6. **Cash Out:**
+    - Users can withdraw money from their accounts via authorized agents.
+
+7. **Mobile Recharge:**
+    - Users can recharge mobile phone balances directly through the system.
+
+8. **Send Money:**
+    - Users can transfer funds to other registered users seamlessly.
+
+9. **Transaction Details:**
+    - Users can view detailed transaction histories to track their financial activities.
+
+10. **Administrative Interface:**
+    - Admins have access to functionalities such as viewing registered users and agents.
+    - Admins can monitor system activities and manage user and agent data efficiently.
+
+---
 
 ## File Structure
 
-- `main.cpp`: The main source code file containing the implementation of the mobile banking system.
-- `README.md`: This file, providing an overview of the project and usage instructions.
-- `User.txt`: Text file storing the list of registered users.
-- `UserMobile.txt`: Text file storing the mapping of user mobile numbers to usernames.
-- `Agent.txt`: Text file storing the list of registered agents.
-- `data<user_mobile_number>.txt`: Text files storing user-specific data such as username and password.
-- `Balance<user_mobile_number>.txt`: Text files storing the account balances of users.
-- `Tran<user_mobile_number>.txt`: Text files storing transaction details for each user.
+- **main.cpp:** Contains the core program logic and user interface.
+- **README.md:** Detailed project documentation and instructions.
+- **Balance.txt:** Stores user account balances.
+- **User.txt:** Records registered usernames.
+- **UserMobile.txt:** Stores registered user mobile numbers.
+- **Agent.txt:** Stores registered agent contact numbers.
+- **data<user_mobile_number>.txt:** Stores user data (mobile number, username, password).
+- **Balance<user_mobile_number>.txt:** Records individual user account balances.
+- **Tran<user_mobile_number>.txt:** Logs user transaction details for each user.
 
-## Dependencies
+---
 
-The project does not have any external dependencies. It is implemented using C++ and standard library functions.
+## Instructions for Running the Program
+
+1. **Compile:**
+    - Compile the `main.cpp` file using a C++ compiler (e.g., g++).
+    ```bash
+    g++ main.cpp -o mobicash
+    ```
+
+2. **Run:**
+    - Execute the compiled program.
+    ```bash
+    ./mobicash
+    ```
+
+3. **Usage:**
+    - Follow the on-screen prompts to navigate through the various features of the MobiCash system.
+
+---
 
 ## Contributors
 
-This project was developed by Tirtho Mondal as part of their coursework at CSE, KUET.
+- Tirtho Mondal (GitHub: [tirtho-mondal](https://github.com/tirtho-mondal))
 
+---
+
+
+## Contact
+
+For any inquiries or issues, please contact the project owner at [Tirtho Mondal](mailto:tirthomondal@gmail.com).
+
+---
+
+## Additional Resources
+
+- [YouTube](https://youtu.be/rMoXmBDAlz0?si=1pfvHnduVh7x6Rrx)
